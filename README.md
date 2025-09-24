@@ -1,6 +1,6 @@
-# reinvent-env
+# photoacid-env
 
-Containerized environment for Reinvent
+Containerized environment for Photoacid Searching
 
 To install on Grace, run
 
