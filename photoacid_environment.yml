@@ -118,7 +118,7 @@ dependencies:
   - pip:
       - h5py==3.14.0
       - llvmlite==0.45.0
-      - mccoygroup-mcutils==1.5.5
+      - mccoygroup-mcutils==1.5.5.1
       - mccoygroup-psience==1.3.2
       - numba==0.62.0
 prefix: /home/hamoran/miniconda3/envs/photoacid
