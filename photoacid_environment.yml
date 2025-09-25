@@ -86,6 +86,7 @@ dependencies:
   - pillow=11.3.0=py313ha492abd_3
   - pip=25.2=pyh145f28c_0
   - pixman=0.46.4=h54a6638_1
+  - psutil=7.1.0=py313h07c4f96_0
   - pthread-stubs=0.4=hb9d3cd8_1002
   - pycairo=1.28.0=py313h3f29d12_1
   - pyparsing=3.2.5=pyhcf101f3_0
