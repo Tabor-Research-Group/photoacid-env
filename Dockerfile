@@ -16,4 +16,4 @@ RUN conda run -n photoacid_env python -m ensurepip --upgrade
 RUN conda run -n photoacid_env python -m pip install --upgrade pip setuptools wheel
 
 # Set the default shell to use bash and activate the conda environment
-ENTRYPOINT ["conda", "run", "--no-capture-output", "-n", "photoacid"]
+ENTRYPOINT ["conda", "run", "--no-capture-output", "-n", "photoacid_env"]
