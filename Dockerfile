@@ -12,8 +12,8 @@ COPY photoacid_environment.yml .
 RUN conda env create -f photoacid_environment.yml
 
 # Install pip manually in case it is missing in the environment
-RUN conda run -n photoacid python -m ensurepip --upgrade
-RUN conda run -n photoacid python -m pip install --upgrade pip setuptools wheel
+RUN conda run -n photoacid2 python -m ensurepip --upgrade
+RUN conda run -n photoacid2 python -m pip install --upgrade pip setuptools wheel
 
 # Set the default shell to use bash and activate the conda environment
 ENTRYPOINT ["conda", "run", "--no-capture-output", "-n", "photoacid"]
